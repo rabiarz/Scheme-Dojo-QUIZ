@@ -10,12 +10,9 @@
 
 # example
 
-```(print (add-miss-num '()))
-; => ()
-(print (add-miss-num '(1 2 4 6 7)))
-; => (1 2 3 4 5 6 7)
-(print (addMisNum '(5 7 9))) 
-; => (5 6 7 8 9)
-(print (add-miss-num '(9 13)))
-; => (9 10 11 12 13)
+```
+(print (add-miss-num '())) ; => ()
+(print (add-miss-num '(1 2 4 6 7))) ; => (1 2 3 4 5 6 7)
+(print (addMisNum '(5 7 9))) ; => (5 6 7 8 9)
+(print (add-miss-num '(9 13))) ; => (9 10 11 12 13)
 ```

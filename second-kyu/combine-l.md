@@ -11,16 +11,9 @@
 # example
 
 ```
-
-
-
-
-
-
-
-
 (print (combine-l `(apple) `(orange))) ; => (apple orange)
 
 (print (combine-l `(potato chips) `(hotdog with (hot) mustard))) ; => (potato chips hotdog with hot mustard)
 
 (print (combine-l `() `(orange))) ; => (orange)
+```
